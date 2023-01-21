@@ -5,5 +5,5 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class PersonalVault(
     val owner: String,         // UUID as string, UUID has no serializer...
-    val items: List<ByteArray?> // Serialized ItemStacks
+    val items: List<ByteArray?> // Pre-serialized ItemStacks
 )

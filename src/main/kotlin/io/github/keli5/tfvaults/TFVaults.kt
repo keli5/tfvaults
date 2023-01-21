@@ -18,7 +18,6 @@ class TFVaults : JavaPlugin(), Listener {
         for ((name, executor) in nameToCommandExecutor) {
             getCommand(name)!!.setExecutor(executor)
             print("Registering command $name to ${executor.toString()}\n")
-            // Why is this... weird? Why does it have to be run twice?
         }
     }
 

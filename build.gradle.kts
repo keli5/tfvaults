@@ -12,10 +12,12 @@ version = "1.0-SNAPSHOT"
 repositories {
     mavenCentral()
     maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
+    maven { url = uri("https://redempt.dev") }
 }
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
+    compileOnly("com.github.Redempt:RedLib:6.5.8")
     testImplementation(kotlin("test"))
     implementation("com.charleskorn.kaml:kaml:0.49.0")
 }
