@@ -1,7 +1,7 @@
 name: TFVaults
 version: 0.0.1
 main: io.github.keli5.tfvaults.TFVaults
-description: Vaults plugin for TotalFreedom but it doesn't suck horribly
+description: Item vaults plugin for Paper but it doesn't suck horribly
 author: keli5
 website: https://keli5.github.io
 api-version: 1.17
