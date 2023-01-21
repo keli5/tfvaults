@@ -1,0 +1,9 @@
+/build/
+.gradle
+run/
+*.class
+*.jar
+hs_err_pid*
+
+!gradle-wrapper.jar
+.gradletaskname

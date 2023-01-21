@@ -1,0 +1,22 @@
+name: TFVaults
+version: 0.0.1
+main: io.github.keli5.tfvaults.TFVaults
+description: Vaults plugin for TotalFreedom but it doesn't suck horribly
+author: keli5
+website: https://keli5.github.io
+api-version: 1.17
+
+permissions:
+  tfvaults.personalvault:
+    description: "Allow users to view their own vaults"
+    default: op
+
+commands:
+  personalvault:
+    description: "View your own vault"
+    usage: "/personalvault"
+    permission: tfvaults.personalvault
+    aliases:
+      - pvault
+      - pv
+      - myvault
